@@ -1,0 +1,13 @@
+{
+  "enabledMcpjsonServers": ["playwright-test"],
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright test:*)",
+      "Bash(npx playwright show-report:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./storage-state.json)"
+    ]
+  }
+}
